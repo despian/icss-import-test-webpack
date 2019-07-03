@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+$test-var1: purple;
+$test-var2: green;
+
+:export {
+  testVar1: $test-var1;
+  testVar2: $test-var2;
+}
